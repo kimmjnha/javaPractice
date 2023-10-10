@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application10 {
 
     public static void main(String[] args) {
@@ -30,5 +32,60 @@ public class Application10 {
                 없는 연산자입니다. 다시 입력해주세요.
 	   */
 
+        Scanner sc = new Scanner(System.in);
+
+
+        int result = 0;
+
+//        label:
+        while (true) {
+            System.out.print("연산자(+, -, *, /, %)를 입력하세요. : ");
+            String op = sc.next();
+
+            if(!op.equals("+") && !op.equals("-") && !op.equals("*") && !op.equals("/") && !op.equals("%")){
+                System.out.println("없는 연산자입니다. 다시 입력하세요.\n");
+                continue;
+            }
+
+            if (op.equals("exit")) {
+                System.out.print("프로그램을 종료합니다.");
+            }
+
+//        continue label;
+
+
+            System.out.print("정수를 입력하세요. : ");
+            int num1 = sc.nextInt();
+            System.out.print("정수를 한 개 더 입력하세요. : ");
+            int num2 = sc.nextInt();
+
+            if(op.equals("/") && num2 == 0) {
+                System.out.println("0으로 나눌 수 없습니다. 다시 입력하세요.\n");
+                continue;
+            }
+
+            switch (op) {
+                case "+":
+                    result = num1 + num2;
+                    break;
+                case "-":
+                    result = num1 - num2;
+                    break;
+                case "*":
+                    result = num1 * num2;
+                    break;
+                case "/":
+                    result = num1 / num2;
+                    break;
+                case "%":
+                    result = num1 % num2;
+                    break;
+                default:
+            System.out.print("없는 연산자입니다. 다시 입력하세요.\n");
+            continue;
+            }
+            System.out.print(num1 + " " + op + " " +  num2 + " = " + result);
+            break;
+        }
     }
 }

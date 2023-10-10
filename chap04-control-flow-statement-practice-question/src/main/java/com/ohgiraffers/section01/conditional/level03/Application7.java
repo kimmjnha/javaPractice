@@ -15,7 +15,7 @@ public class Application7 {
             4 3 2 1						1 이상의 숫자를 입력해주세요.
 		*/
         Scanner sc = new Scanner(System.in);
-        System.out.println(" 1 이상의 숫자를 한 개 입력하세요. : ");
+        System.out.print(" 1 이상의 숫자를 한 개 입력하세요. : ");
         int user = sc.nextInt();
 
             if (user >= 1) {

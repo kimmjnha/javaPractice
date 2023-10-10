@@ -20,10 +20,25 @@ public class Application9 {
         int user1 = sc.nextInt();
 
         System.out.print("숫자를 한 번 더 입력하세요. : ");
-       int user2  = sc.nextInt();
+        int user2 = sc.nextInt();
 
-//       if() {}
+        if (user1 >= 1 && user2 >= 1) {
+            int max = 0;
+            int min = 0;
 
-        System.out.println("안녕하세요.");
+            if (user1 > user2) {
+                max = user1;
+                min = user2;
+            } else {
+                max = user2;
+                min = user1;
+            }
+
+            for (int i = min; i <= max; i++) {
+                System.out.print(i + " ");
+            }
+            } else {
+                System.out.println("1 이상의 숫자를 입력하세요.");
+            }
+        }
     }
-}

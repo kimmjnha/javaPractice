@@ -21,5 +21,9 @@ public class Application9 {
 
         System.out.print("숫자를 한 번 더 입력하세요. : ");
        int user2  = sc.nextInt();
+
+//       if() {}
+
+        System.out.println("안녕하세요.");
     }
 }

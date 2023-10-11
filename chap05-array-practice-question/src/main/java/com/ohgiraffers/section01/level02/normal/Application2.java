@@ -15,6 +15,13 @@ public class Application2 {
          * -- 출력 예시 --
          * 990101-1******
          */
+
+
+
+
+
+
+
         Scanner sc = new Scanner(System.in);
         System.out.print("'-'을 포함한 주민등록번호를 입력하세요. : ");
         String str = sc.next();
@@ -25,21 +32,21 @@ public class Application2 {
         for (int i = 0; i < carr.length; i++) {
             if (i >= 8) {
                 carr[i] = '*';
-            }   /* 1. int i = 0;
-            ==> index 번호 0번부터 확인
-    2. i < carr.length;
-            ==> 주민등록번호(carr, 000000-00000)가 0보다 길면(carr.length(주민등록번호의 문자 갯수) = 총 13개)
-                if문으로 이동
-    3. if(i >= 8)
-            ==> index 번호가 8 이상이면
-    4. carr[i] = '*';
-            ==> carr의 index에 대입 되어있는 값을 '*'로 초기화
+            }    /* 1. int i = 0;
+                             ==> index 번호 0번부터 확인
+                    2. i < carr.length;
+                            ==> 주민등록번호(carr, 000000-00000)가 0보다 길면(carr.length(주민등록번호의 문자 갯수) = 총 13개)
+                                if문으로 이동
+                    3. if(i >= 8)
+                            ==> index 번호가 8 이상이면
+                    4. carr[i] = '*';
+                            ==> carr의 index에 대입 되어있는 값을 '*'로 초기화
 
-            else
+                            else
 
-    5. if(i >= 8)
-            ==> index 번호가 8 이하이면 i++(index 값에 1 더하기) 후 다시 for문 초기식으로 반환
- */
+                    5. if(i >= 8)
+                            ==> index 번호가 8 이하이면 i++(index 값에 1 더하기) 후 다시 for문 초기식으로 반환
+                 */
 
             System.out.print(carr[i]);
             /* Char array의 8번째 숫자부터 '*'로 초기화 된

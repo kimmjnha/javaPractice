@@ -21,7 +21,7 @@ public class Application11 {
 
         while (true) {
             System.out.println("10 이하 임의의 난수를 발생시킵니다. 임의의 난수와 같은 수를 입력 해보세요!");
-            int random = (int) (Math.random() * 9 + 1);
+            int random = (int) (Math.random() * 10 + 1);
 
             System.out.print("정수 한 개를 입력하세요. : ");
             int user = sc.nextInt();

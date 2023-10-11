@@ -42,13 +42,14 @@ public class Application10 {
             System.out.print("연산자(+, -, *, /, %)를 입력하세요. : ");
             String op = sc.next();
 
-            if(!op.equals("+") && !op.equals("-") && !op.equals("*") && !op.equals("/") && !op.equals("%")){
+            if(!op.equals("+") && !op.equals("-") && !op.equals("*") && !op.equals("/") && !op.equals("%") && !op.equals("exit")) {
                 System.out.println("없는 연산자입니다. 다시 입력하세요.\n");
                 continue;
             }
 
             if (op.equals("exit")) {
                 System.out.print("프로그램을 종료합니다.");
+                break;
             }
 
 //        continue label;

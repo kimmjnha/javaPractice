@@ -7,5 +7,19 @@ public class Application1 {
         /* 길이가 10인 정수형 배열을 선언 및 할당한 뒤
          * 각 인덱스에 차례대로 1부터 10까지 값을 넣고 출력하세요
          * */
+
+
+//        int[] arr = new int[10];
+//
+//        for(int i = 0; i < 10; i++) {
+//            arr[i] = (i)+1;
+//            System.out.println(arr[i]);
+
+         int[] arr = new int[10];
+
+         for(int i = 1; i <= 10; i++) {
+             arr[i-1] = (i-1)+1;
+             System.out.println(arr[i-1]);
+         }
     }
 }

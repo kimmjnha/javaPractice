@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.level01.basic;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -23,5 +25,24 @@ public class Application2 {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
+
+
+
+//        int[] arr = new int[5];   //  칸만 지정
+
+       String[] sarr = {"딸기", "바나나", "복숭아", "키위", "사과"};    //  칸을 만들고, 초기화하고, 칸에 지정
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("0부터 4까지의 정수를 한 개 입력하세요. : ");
+        int user = sc.nextInt();
+
+        if(user >=0 && user <= 4) {
+            System.out.println(sarr[user]); //  sarr = String array
+        } else {
+            System.out.println("준비된 과일이 없습니다.");
+        }
+
+
     }
 }

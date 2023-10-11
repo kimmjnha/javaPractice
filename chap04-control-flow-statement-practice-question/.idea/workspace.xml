@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd3fc44f-d50d-4d5e-a147-9045bb007bc9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01_lectureSource/01_Java/chap02-operator-lecture-source/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_lectureSource/01_Java/chap02-operator-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02_sublectureSource" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_sublectureSource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../gitTest" beforeDir="false" afterPath="$PROJECT_DIR$/../../gitTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +41,48 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kimminha/Desktop/JAVA/dev/01_javaPractice/chap04-control-flow-statement-practice-question",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimminha/Desktop/JAVA/dev/javaPractice/chap04-control-flow-statement-practice-question&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Application8">
-    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application2" />
+}</component>
+  <component name="RunManager" selected="Application.Application12">
+    <configuration name="Application10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application10" />
+      <module name="chap04-control-flow-statement-practice-question.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application11" />
+      <module name="chap04-control-flow-statement-practice-question.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application12" />
       <module name="chap04-control-flow-statement-practice-question.main" />
       <extension name="coverage">
         <pattern>
@@ -84,34 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application6" />
-      <module name="chap04-control-flow-statement-practice-question.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application7" />
-      <module name="chap04-control-flow-statement-practice-question.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application8" />
+    <configuration name="Application9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application9" />
       <module name="chap04-control-flow-statement-practice-question.main" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application12" />
+        <item itemvalue="Application.Application11" />
+        <item itemvalue="Application.Application10" />
+        <item itemvalue="Application.Application9" />
         <item itemvalue="Application.Application4" />
-        <item itemvalue="Application.Application8" />
-        <item itemvalue="Application.Application2" />
-        <item itemvalue="Application.Application7" />
-        <item itemvalue="Application.Application6" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +144,8 @@
       <workItem from="1696345935318" duration="3914000" />
       <workItem from="1696401829335" duration="9260000" />
       <workItem from="1696927626118" duration="271000" />
+      <workItem from="1696929022915" duration="13029000" />
+      <workItem from="1696991373014" duration="5274000" />
     </task>
     <servers />
   </component>
@@ -165,6 +164,20 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application5.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application12.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application8.java</url>
+          <line>6</line>
+          <properties class="com.ohgiraffers.section01.conditional.level03.Application8" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

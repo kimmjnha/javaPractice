@@ -21,7 +21,7 @@ public class Application11 {
 
         while (true) {
             System.out.println("10 이하 임의의 난수를 발생시킵니다. 임의의 난수와 같은 수를 입력 해보세요!");
-            int random = (int) (Math.random() * 10 + 1);
+            int random = (int) (Math.random() * 10 + 1);    //   0에 10을 곱하면 0 ~ 99까지의 정수가 나옴 +1을 해주면 0 ~ 100까지의 숫자 얻기 가능
 
             System.out.print("정수 한 개를 입력하세요. : ");
             int user = sc.nextInt();

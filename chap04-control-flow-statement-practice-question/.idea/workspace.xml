@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd3fc44f-d50d-4d5e-a147-9045bb007bc9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +152,9 @@
       <workItem from="1696991373014" duration="5870000" />
       <workItem from="1697012279363" duration="3657000" />
       <workItem from="1697037345181" duration="2736000" />
+      <workItem from="1697091294042" duration="1863000" />
+      <workItem from="1697100267432" duration="545000" />
+      <workItem from="1697184733700" duration="767000" />
     </task>
     <servers />
   </component>
